@@ -1,0 +1,158 @@
+/* league-spartan-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/league-spartan-v11-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/league-spartan-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/league-spartan-v11-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 165px;
+  padding-right: 50px;
+}
+
+.home__header {
+  color: white;
+  background-image: url(../images/homepage/hero-bg-desktop@2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 151px;
+}
+
+.home__logo {
+  margin-top: 65px;
+  margin-bottom: 153px;
+}
+
+.home__h4__text {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  width: 100%;
+  max-width: 511px;
+  margin-bottom: 10px;
+}
+.home__p__text {
+  width: 100%;
+  max-width: 445px;
+  margin-bottom: 40px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.home__link {
+  padding: 25px 54px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  transition: 0.3s ease-in-out;
+
+  &:active {
+    background-color: #fff;
+    border: transparent;
+    color: #000;
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.home__footer {
+}
+.home__footer__section {
+  background-image: url(../images/homepage/ready-bg-tablet@2x.jpg);
+}
+
+.home__footer__class {
+  padding-top: 99px;
+  padding-bottom: 93px;
+  display: flex;
+  gap: 250px;
+}
+.home__footer__h4 {
+  color: white;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.tel {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home__footerbg {
+  background-color: #111;
+  color: #fff;
+}
+.home__footer__mobila {
+  display: flex;
+
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-bottom: 76px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.home__footer-t {
+  display: flex;
+  flex-direction: column;
+   &:hover {
+    color: blue;
+   }
+}
